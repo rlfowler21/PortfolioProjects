@@ -62,7 +62,7 @@ SELECT
   Max(total_cases) AS Highest_Infection_Count, 
   max((total_cases/population))*100 AS Population_Percentage_Infected
 FROM 
-  'eighth-physics-440919-t4.Portfolio_Project.Covid_Deaths`
+  `eighth-physics-440919-t4.Portfolio_Project.Covid_Deaths`
 GROUP BY
   location, population
 ORDER BY
